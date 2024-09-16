@@ -14,7 +14,6 @@ This project demonstrates how to use the Segment Anything Model (SAM) from the `
 - `ultralytics` (for the SAM model)
 - `supervision` (for handling detection annotations)
 - `opencv-python` (for image reading, saving, and processing)
-- `matplotlib` (for plotting images)
 
 ### Install dependencies
 
