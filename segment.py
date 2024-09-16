@@ -2,7 +2,6 @@ from ultralytics import SAM
 import urllib.request
 import supervision as sv
 import cv2
-import matplotlib.pyplot as plt
 
 # Download and read image
 url, filename = ("https://images.unsplash.com/photo-1532186232057-80e418ed6614?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIwfHxzdHJlZXQlMjB3aXRoJTIwY2FycyUyMGFuZCUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D", "scene.jpg")
