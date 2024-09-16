@@ -23,3 +23,13 @@ You can install the required libraries using pip:
 ```bash
 pip install -r requirements.txt
 ```
+
+### How It Works
+The script performs the following steps:
+
+1. Downloads an image from the specified URL.
+2.  Loads the SAM model using ultralytics.
+3. Processes the image and performs segmentation using the SAM model.
+4. Annotates the detected segments (masks and bounding boxes) on the original image.
+
+Saves the segmented image locally.
