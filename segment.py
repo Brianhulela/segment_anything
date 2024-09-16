@@ -37,14 +37,14 @@ for i, result in enumerate(results):  # Iterate over each result in the list
         # Annotate the image
         annotated_image = mask_annotator.annotate(scene=image_rgb.copy(), detections=detections)
         
+        # Save the annotated image locally
+        cv2.imwrite("segmented_image.jpg", annotated_image)  # Convert back to BGR for saving
+        
         sv.plot_images_grid(
             images=[image_rgb, annotated_image],
             grid_size=(1, 2),
             titles=['source image', 'segmented image']
         )
-        
-        # Save the annotated image locally
-        cv2.imwrite("segmented_image.jpg", annotated_image)  # Convert back to BGR for saving
         
     else:
         print(f"No masks found in result {i+1}")
