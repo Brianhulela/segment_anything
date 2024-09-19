@@ -1,6 +1,6 @@
 # SAM Image Segmentation
 
-![Segmented Image Result](http://url/to/img.png](https://github.com/Brianhulela/segment_anything/blob/main/segmented_image.jpg)
+![Segmented Image Result](https://github.com/Brianhulela/segment_anything/blob/main/segmented_image.jpg)
 
 This project demonstrates how to use the Segment Anything Model (SAM) from the `ultralytics` library for image segmentation. The script downloads an image, applies SAM to perform segmentation, and saves the segmented image locally.
 
